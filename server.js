@@ -1,7 +1,7 @@
 //Importation du package http de Node
 const http = require('http');
 //Importation de app.js
-const app = require('./backend/app');
+const app = require('app');
 
 //Renvoi un port valide, soit sous forme d'un numéro ou d'une chaine
 const normalizePort = val => {
